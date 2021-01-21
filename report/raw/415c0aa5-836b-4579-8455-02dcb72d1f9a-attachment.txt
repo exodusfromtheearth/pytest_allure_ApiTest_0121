@@ -1,0 +1,2 @@
+[32mINFO    [0m root:requestFunc.py:26 请求地址【https://fa-test.huaxing.com/api/companies?page=1&page_size=20&need_contact_count=true】
+[32mINFO    [0m root:requestFunc.py:64 返回状态码【200】

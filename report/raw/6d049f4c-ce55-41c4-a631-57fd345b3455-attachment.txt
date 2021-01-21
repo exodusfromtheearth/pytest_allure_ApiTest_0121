@@ -1,0 +1,2 @@
+[32mINFO    [0m root:requestFunc.py:26 请求地址【https://fa-test.huaxing.com/api/organizations/4/members?layout=index&page_size=10000】
+[32mINFO    [0m root:requestFunc.py:64 返回状态码【200】

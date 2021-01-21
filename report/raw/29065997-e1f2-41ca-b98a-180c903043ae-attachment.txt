@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_03_funding.py:29 请求地址【https://fa-test.huaxing.com/api/common/dict】
+[32mINFO    [0m root:test_03_funding.py:67 返回状态码【200】

@@ -1,0 +1,2 @@
+2021-01-21 13:13:46,305 - /Users/study/pytest_api_example(only_case)/case/test_03_funding.py[line:29] - INFO: 请求地址【https://fa-test.huaxing.com/api/common/dict】
+2021-01-21 13:13:47,062 - /Users/study/pytest_api_example(only_case)/case/test_03_funding.py[line:67] - INFO: 返回状态码【200】

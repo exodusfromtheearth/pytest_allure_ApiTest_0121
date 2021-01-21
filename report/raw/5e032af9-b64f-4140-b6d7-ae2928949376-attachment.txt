@@ -1,0 +1,2 @@
+2021-01-21 13:13:45,618 - /Users/study/pytest_allure_api_test/common/requestFunc.py[line:26] - INFO: 请求地址【https://fa-test.huaxing.com/api/organizations/4/members?layout=index&page_size=10000】
+2021-01-21 13:13:46,297 - /Users/study/pytest_allure_api_test/common/requestFunc.py[line:64] - INFO: 返回状态码【200】
