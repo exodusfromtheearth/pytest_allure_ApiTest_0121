@@ -16,6 +16,6 @@ def test_01(value, pytestconfig):
     req_fun(value, pytestconfig)
 
 
-# if __name__ == '__main__':
-#     atp_log.info('==========FA-Test环境API场景测试==========')
-#     pytest.main(['-s', 'test_02_org.py'])
+if __name__ == '__main__':
+    atp_log.info('==========FA-Test环境API场景测试==========')
+    pytest.main(['-s', 'test_02_org.py'])
