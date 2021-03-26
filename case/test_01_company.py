@@ -18,4 +18,4 @@ def test_01(value, pytestconfig):
 
 if __name__ == '__main__':
     atp_log.info('==========FA-Test环境API场景测试==========')
-    pytest.main(['-s', 'test_02_org.py'])
+    pytest.main(['-s', 'test_01_company.py'])
