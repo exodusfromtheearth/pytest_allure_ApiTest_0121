@@ -71,8 +71,8 @@ def test_01(value, pytestconfig):
     # excel_obj.write_actual_return(status_code, "断言成功", case_id)
 
 
-# if __name__ == "__main__":
-#     pytest.main(['--alluredir', './report/raw'])
-#     # 执行命令 allure generate ./temp -o ./report --clean ，生成测试报告
-#     os.system('allure generate ./report/raw -o ./report --clean')
-#     # pytest.main(['-s', 'test_03_funding.py'])
+if __name__ == "__main__":
+    # pytest.main(['--alluredir', './report/raw'])
+    # 执行命令 allure generate ./temp -o ./report --clean ，生成测试报告
+    # os.system('allure generate ./report/raw -o ./report --clean')
+    pytest.main(['-s', 'test_03_funding.py'])

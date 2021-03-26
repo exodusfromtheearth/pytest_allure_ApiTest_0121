@@ -11,6 +11,7 @@ from common.logger import atp_log
 excel_obj = OperationExcel(2, 'data', 'fa_test.xls')
 
 
+@allure.feature("测试公司模块")
 @pytest.mark.parametrize("value", excel_obj.caserun())
 def test_01(value, pytestconfig):
     req_fun(value, pytestconfig)
