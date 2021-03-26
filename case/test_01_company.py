@@ -7,7 +7,7 @@ import sys
 from common.requestFunc import req_fun
 from common.operationExcel import OperationExcel
 from common.logger import atp_log
-
+import allure
 excel_obj = OperationExcel(2, 'data', 'fa_test.xls')
 
 

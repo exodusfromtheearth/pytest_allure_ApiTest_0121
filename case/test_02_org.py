@@ -7,12 +7,13 @@ import sys
 from common.requestFunc import req_fun
 from common.operationExcel import OperationExcel
 from common.logger import atp_log
+import allure
 
 excel_obj_0 = OperationExcel(0, 'data', 'fa_test.xls')
 excel_obj_1 = OperationExcel(1, 'data', 'fa_test.xls')
 
 
-@allure.feature("测试机构模块")
+@allure.feature("测试项目模块")
 @pytest.mark.skip(reason="no way of currently testing this")
 @pytest.mark.parametrize("value0", excel_obj_0.caserun())
 def test_01(value0, pytestconfig):
